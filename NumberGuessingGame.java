@@ -7,7 +7,7 @@ public class NumberGuessingGame {
         int lowerBound = 1;
         int upperBound = 100;
         int targetNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
-        int maxAttempts = 10
+        int maxAttempts = 10;
         int attempts = 0;
         boolean hasGuessedCorrectly = false;
         System.out.println("Welcome to the Number Guessing Game!");
